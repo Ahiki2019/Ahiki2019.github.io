@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="Shortcut Icon" href="/public/img/34.png" >
+    <link rel="stylesheet" href="/public/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/animation.css">
+    <script src="/public/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script src="/public/js/index.js"></script>
+    <script src='/public/js/hammer.min.js'></script>
+	  <script src='/public/js/slider.js'></script>
+    <title>ISEE's blog</title>
+    <style>
+      a{
+        text-decoration: none;
+        color: rgb(102, 100, 100);
+      }
+      a:hover{
+        text-decoration: none;
+      }
+    </style>
+</head>
+<body>
+  <div id="head">
+    <div id="ttp"></div>
+    <div id="btp">     
+      <ul>
+        <li><label>ISEE's blog</label></li>
+        <li id="heada1"><a href="index.html" ><img src="/public/img/26.png" alt="主页" title="首页" id="headimg1"><span id="heada1s">首页</span></a></li>
+        <li id="heada2"><a href="#"><img src="/public/img/27.png" alt="关于我们" title="有关于ISEE" id="headimg2"><span id="heada2s">关于</span></a> </li>
+        <li id="heada3"><a href="#"><img src="/public/img/28.png" alt="归档文件" title="文章归档" id="headimg3"><span id="heada3s">归档</span></a></li>
+        <li id="heada4"><a href="#"><img src="/public/img/29.png" alt="分享我的资源" title="分享我的资源" id="headimg4"><span id="heada4s">资源分享</span></a></li>
+        <li id="heada5"><a href="#"><img src="/public/img/31.png" alt="每日学习" title="每日学习一享" id="headimg5"><span id="heada5s">学习分享</span></a></li>
+        <li id="heada6"><a href="#"><img src="/public/img/30.png" alt="给我留言" title="给我留言" id="headimg6"><span id="heada6s">留言板</span></a> </li>
+        <li id="heada7"><img src="/public/img/33.png" alt="搜索" title="搜索" id="headimg7"></li>
+    </ul>
+    </div>
+    <div id="bbtp">
+      <input type="text" id="inuu"><img src="/public/img/32.png" placeholder="请输入关键字" id="backback">
+    </div>
+  </div>
+    <header>
+        <div id="h1">
+            <h1 class="rotateInUpLeft">ISEE' blog</h1>
+            <h3>————&nbsp;This&nbsp;is&nbsp;ISEE'&nbsp;blog&nbsp;————</h3>
+            <ul>
+                <li><a href="#">首页</a> </li>
+                <li><a href="#">关于</a> </li>
+                <li><a href="#">归档</a> </li>
+                <li><a href="#">资源分享</a> </li>
+                <li><a href="#">学习分享</a> </li>
+                <li><a href="#">留言板</a> </li>
+            </ul>
+        </div>
+        <div>
+            <div ><img src="/public/img/35.png" alt="ISEE's头像" class="animated infinite rotateInUpLeft delay-2s"> 
+              <h3>Ahiki</h3>
+              <h5 style="margin-top: 5px;font-family: 华文隶书;font-size: 16px;">越努力，越幸运!</h5>
+            </div>              
+            
+            <div>
+                <a href="#"><img src="/public/img/c01.png" title="网站地址"></a>
+                <a href="#"><img src="/public/img/c02.png" title="我的邮箱"></a>
+                <a href="#"><img src="/public/img/c03.png" title="QQ联系我"></a>
+                <a href="#"><img src="/public/img/c04.png" title="微信关注我"></a>
+            </div>              
+        </div>
+    </header>
+    <div id="maintent">
+      <!-- 轮播图 -->
+        <div id="star"> 
+            <div class='o-sliderContainer hasShadow ' id="pbSliderWrap3">
+                <div class='o-slider' id='pbSlider3'>
+                  <div class="o-slider--item" data-image="public/img/1.jpg">
+                    <div class="o-slider-textWrap">
+                      <h1 class="o-slider-title">初学css</h1>
+                      <span class="a-divider"></span>
+                      <h2 class="o-slider-subTitle">入门css</h2>
+                    </div>
+                  </div>
+                  <div class="o-slider--item" data-image="public/img/2.jpg">
+                    <div class="o-slider-textWrap">
+                      <h1 class="o-slider-title">简单学习js</h1>
+                      <span class="a-divider"></span>
+                      <h2 class="o-slider-subTitle">js学习</h2>
+                    </div>
+                  </div>
+                  <div class="o-slider--item" data-image="public/img/3.webp">
+                    <div class="o-slider-textWrap">
+                      <h1 class="o-slider-title">视频剪辑</h1>
+                      <span class="a-divider"></span>
+                      <h2 class="o-slider-subTitle">PR视频剪辑</h2>
+                    </div>
+                  </div>
+                  <div class="o-slider--item" data-image="public/img/4.jpg">
+                    <div class="o-slider-textWrap">
+                      <h1 class="o-slider-title">每日学习</h1>
+                      <span class="a-divider"></span>
+                      <h2 class="o-slider-subTitle">分享我的学习成果</h2>
+                    </div>
+                  </div>
+                  <div class="o-slider--item" data-image="public/img/5.jpg">
+                    <div class="o-slider-textWrap">
+                      <h1 class="o-slider-title">PS入门</h1>
+                      <span class="a-divider"></span>
+                      <h2 class="o-slider-subTitle">初学PS</h2>
+                    </div>
+                  </div>
+                  <div class="o-slider--item" data-image="public/img/6.jpg">
+                    <div class="o-slider-textWrap">
+                      <h1 class="o-slider-title">素描</h1>
+                      <span class="a-divider"></span>
+                      <h2 class="o-slider-subTitle">初学素描</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div> 
+        <!-- 右边导航栏 -->
+        <div id="mainright">
+          <ul>
+            <li>         
+                <input type="text" placeholder="请输入关键字">      
+            </li>
+            <li><a href="#">全部文章</a></li>
+            <li><a href="#">视频剪辑</a></li>
+            <li><a href="#">网页设计</a></li>
+            <li><a href="#">PS学习</a></li>
+            <li><a href="#">其他</a></li>
+          </ul>
+        </div>
+    </div>
+    <a href=""><div id="mainpict">
+      <div>
+        <img src="/public/img/36.jpg" title="创意视频剪辑">
+      </div>
+      <div>
+        <label>视频剪辑</label><br>
+        <label>专注于创意的视频剪辑手法</label><br>
+        <label>正在努力学习中的视频剪辑小白</label>
+        <img src="/public/img/34.ico" alt="博主" title="一起努力学习吧">
+      </div>
+    </div></a>
+    <div id="pict">
+      <div id="toppict">
+      <a href="/one/2019/11/30/three.html"><img src="/public/img/7.jpg" alt="PS入门" id="toppictimg"></a>
+      <span id="toppicts">简单PS</span>
+    </div>
+    <div id="bottompict">
+      <a href="#"><img src="/public/img/8.jpg" ></a>
+      <span>简单css样式</span>
+    </div>
+    
+    </div>
+    <div id="rightpict">
+      <ul>
+        <li ><a href="#"><label>最近更新</label></a></li>
+        <li class="rightpictli"><a href="/one/2019/11/25/first.html"><label>建国70周有感</label></a></li>
+        <li class="rightpictli"><a href="/one/2019/12/03/second.html"><label>毛概对当代青年的指导意义</label></a></li>
+        <li class="rightpictli"><a href="#"><label>css字体样式的简单使用</label></a></li>
+        <li class="rightpictli"><a href="#"><label>JQuery实现简单动作</label></a></li>
+      </ul>
+    </div>
+    <div id="imgbig">
+      <span class="animated infinite rotateInDownLeft delay-5s">有梦想就能到达诗和远方</span>
+    </div>
+    <!-- 素描 -->
+    <div id="picture">
+      <h4>入手素描:</h4>
+      <div id="picturetop">
+        <div class="picturetop">
+          <a href="#"><img src="/public/img/13.jpg"  title="怎样选择笔"></a>
+          <h3>第一步：怎样选择使用哪种笔</h3>
+        </div>
+        <div class="picturetop">
+          <a href="#"><img src="/public/img/16.jpg"  title="作为素描的基础之基础"></a>
+          <h3>第二步：排线</h3>
+        </div>
+        <div class="picturetop">
+          <a href="#"><img src="/public/img/15.jpg" title=""></a>
+          <h3>第三步：阴影</h3>
+        </div>
+        <div class="picturetop">
+          <a href="#"><img src="/public/img/17.jpg"  title="人像的布局决定画人像的基础"></a>
+          <h3>第四步：人像的布局</h3>
+        </div>       
+      </div>
+      <div id="picturebot">
+        <div class="picturebot">
+          <a href="#"><img src="/public/img/18.jpg" title="突破难关：动物绒毛"></a>
+          <h3>第五步：动物绒毛</h3>
+        </div>
+        <div class="picturebot">
+          <a href="#"><img src="/public/img/19.jpg" title="绘画远景，离专业素描大师不远了"></a>
+          <h3>第六步：远景</h3>
+        </div>
+        <div class="picturebot">
+          <a href="#"><img src="/public/img/20.jpg" title="深入细节,细节决定成败"></a>
+          <h3>第七步：深入细节</h3>
+        </div>
+        <div class="picturebot">
+          <a href="#"><img src="/public/img/12.jpg" title="最高要求：细节"></a>
+          <h3>通往成功的最后一步：还是细节</h3>
+        </div>
+      </div>
+    </div>
+    <div id="wirte">
+      <h3>全部文章</h3>          
+          
+<div id="text">
+        <div class="text">
+          <div class="textpict">
+          <img src="/public/img/88.jpg">
+          </div>
+          <div class="txt">
+            <h1>PS|一篇文章让你入门Photoshop</h1>
+            <p><p>对于大部分没有接触过Photoshop的人来说，对其的印象还在于这是一门高深的技术，一门神奇的技术，一门可以化腐朽为神奇的技术，殊不知软件设计之初就决定了它易用性的发展方向，Photoshop在经历了x年的发展，早已不是那个设计师的PS，它是大众的PS，虽然我们不能达到大神们将功夫熊猫活活P成美女的功力，但是将照片变得更好看，做一些表情包，甚至是设计一些海报和LOGO都是可以实现的。</p>
+</p>
+          </div>
+          </div>
+          <div id="botn">
+            <img src="/public/img/37.png" alt="阅读人数" title="阅读人数"><label>123</label>
+            <img src="/public/img/38.png" alt="赞同此文章" title="赞同此文章"><label>123</label>
+            <img src="/public/img/39.png" alt="评论" title="评论人数"><label>123</label> 
+          </div>
+          <div id="pton">
+            <label>okok</label>
+          </div>          
+        <a href="/two/2019/11/30/three.html"><label>阅读全文</label></a>  
+        <img src="/public/img/侠客3.ico" alt="" class="aaimg" title="阅读后可留下你的评论">     
+      </div>
+
+<div id="text">
+        <div class="text">
+          <div class="textpict">
+          <img src="/public/img/89.jpg">
+          </div>
+          <div class="txt">
+            <h1>建国70周年有感</h1>
+            <p><p>摘要：新中国成立以来，披荆斩棘，历经风雨无数，从弱小贫穷至今军事大国和世界第二大经济体，展现了中华民族自强不息的精神和顽强的生命力量。我国的综合国力的历史跨越性令世人瞩目，多年来中华民族为伟大复兴的中国梦勇于拼搏，强大的力量无人撼动。
+	关键词：建国70年，中华民族，艰辛，团结，繁荣富强</p>
+</p>
+          </div>
+          </div>
+          <div id="botn">
+            <img src="/public/img/37.png" alt="阅读人数" title="阅读人数"><label>123</label>
+            <img src="/public/img/38.png" alt="赞同此文章" title="赞同此文章"><label>123</label>
+            <img src="/public/img/39.png" alt="评论" title="评论人数"><label>123</label> 
+          </div>
+          <div id="pton">
+            <label>okok</label>
+          </div>          
+        <a href="/one/2019/11/25/first.html"><label>阅读全文</label></a>  
+        <img src="/public/img/侠客3.ico" alt="" class="aaimg" title="阅读后可留下你的评论">     
+      </div>
+
+
+<a href="/" id="backa"><img src="/public/img/40.png" id="backimg">上一页</a>
+
+
+      <a href="javascript:void(0)" id="nexta">下一页<img src="public/img/41.png" id="nextimg"></a>
+        
+    </div>
+    <div id="backspan" style="display: inline-block;width: 50px; height: 50px;"><a href="#h1"><img src="/public/img/42.png" alt="返回顶部" title="返回顶部" id="backspanimg"></a></div>
+    <div class="Snow">
+      <canvas id="Snow"></canvas>
+  </div>
+    <div id="footer">
+      <div id="pptt">
+        <img src="/public/img/43.png" title="博客首页链接">
+        <img src="/public/img/44.png" title="我的邮箱">
+        <img src="/public/img/qq.png" title="我的QQ">
+        <img src="/public/img/45.png" title="我的微信">
+      </div>
+      <h5 style="font-family: 隶书;color: darkgrey;">ISEE'S个人博客</h5>
+    </div>
+    <!-- 下面是js对轮播图的实现 -->
+    <script src="/public/js/snow.js"></script>
+    <script>
+    $('#pbSlider3').pbTouchSlider({
+		slider_Wrap: '#pbSliderWrap3',
+		slider_Threshold: 50 ,
+		slider_Speed:400 ,
+		slider_Ease:'linear',
+		slider_Breakpoints: {
+		    default: {
+		        height: 400
+		    },
+		    tablet: {
+		        height: 300,
+		        media: 1024
+		    },
+		    smartphone: {
+		        height: 200,
+		        media: 768
+		    }
+		}
+		});
+    </script>
+</body>
+</html>
